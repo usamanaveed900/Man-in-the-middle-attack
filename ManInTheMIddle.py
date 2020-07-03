@@ -45,7 +45,7 @@ if __name__ == '__main__':
 	import argparse
 	from datetime import datetime
 	from time import sleep as pause
-	parser = argparse.ArgumentParser(description='ARP Poisoning Tool')
+	parser = argparse.ArgumentParser(description='Man In The Middle Attack')
 	parser.add_argument('-i', '--interface', help='Network interface to attack on', action='store', dest='interface', default=False)
 	parser.add_argument('-t1', '--target1', help='First target for poisoning', action='store', dest='target1', default=False)
 	parser.add_argument('-t2', '--target2', help='Second target for poisoning', action='store', dest='target2', default=False)
